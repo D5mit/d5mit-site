@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158181507-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158181507-1');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" type="text/css" href="default.css?version=2">
 </head>
 <body>
+
 <div class="hero-image">
     <div class="navbar">
         <div class="dev-center-head">
-            <a href="./">d5mit</a>
+            <a href="../../Downloads/d5mit">d5mit</a>
             <a href="https://github.com/D5mit" target="_blank">GitHub</a>
-<!--            <a href="research.html">Research</a>-->
+            <a href="research.html">Research</a>
+            <a href="kidsmain.html">Kids</a>
         </div>
     </div>
     <div class="hero-text">
@@ -23,28 +34,36 @@
            <h2>Artifacts to enable descriptive to the prescriptive.</h2>
            <p>
                This page is a collection of artifacts created in order to explore the idea of moving from descriptive to a predictive environment.
-               It focuses on a socio-technological view on the critical success factors of transforming into a data-driven organisation. The design science research methodology will be followed.
+
             </p>
             <br>
             <table class="blueTable">
                 <thead>
                     <tr>
-                    <th>AI playing Tic Tac Toe </th>
+                    <th>AI playing Tic-Tac-Toe </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                     <td>
-                        <p>A basic implementation of a neural network(NN) to play Tic Tac Toe.
+                        <p>Using self-play and a simple neural network to teach a simple AI agent how to play Tic Tac Toe.
                             The main reason for this implementation, is not to build the fastest
                             and best Agent to play human level Tic Tac Toe, but rather to provide
                             an easy learning experience to anyone new to NN.
+                        <br>
+                        <br>
+                            In order to understand the influence of problem representation on design.
+                            The simple game of Number Scrabble is also included as a link below. The same AI agent
+                            learned how to play the game.
+
                         </p>
+                            <br>
+                             Links: [ <a href="http://3.134.103.205/tictactoe" target="_blank">Play Tic-Tac-Toe against the Agent</a> ]
+                            [ <a href="http://3.134.103.205/tictactoecard" target="_blank">Play game of Scrabble against the Agent</a> ]
+                             [ <a href="https://github.com/D5mit/Tic-Tac-Toe-NN" target="_blank">Source Code</a> ]
                         <p>
                             <br>
-                            <img src="images/TTT.gif" alt="Tic Tac Toe" width="100%">
-                            <br>
-                            <a href="https://github.com/D5mit/Tic-Tac-Toe-NN" target="_blank">Source Code</a>
+                            <img src="../../Downloads/d5mit/images/TTT.gif" alt="Tic Tac Toe" width="100%">
                         </p>
                     </td>
                     </tr>
@@ -60,22 +79,23 @@
                 <tbody>
                     <tr>
                     <td>
-                        <p>The model trained on imdb 25 000 movie reviews.
-                            Classifying if the sentiment was positive or negative.
-                            This model was trained on movie review data, but it can be argued that this can
-                            be used on any text and classifying if the text is positive or negative.
+                        <p>
+                            A sequential neural network was trained on 25 000 IMDB movie reviews.  Based on the review, the model predicts the movie rating.
+
+                            It can be argued that this model can be used on any text and classifying if the text is positive or negative.
                             <br><br>
                             Note this model was built on a Sequential Neural Network using Keras.
                             This approach has some limitations, this approach does not cater for the example:
                             'The movie Terrible, was excellent' vs 'The movie Excellent, was terrible'.
                             ToDo: Investigate a recurrent neural network as an improvement.
                         </p>
+                        <br>
+                             Links: [ <a href="http://3.134.103.205/" target="_blank">Try the model</a> ]
+                             [ <a href="https://github.com/D5mit/IMDB-Review-classification" target="_blank">Source Code</a> ]
                         <p>
                             <br>
-                             <img src="images/Bots-01.svg" alt=":) or :(" width="100%">
-                            <a href="http://3.134.103.205/" target="_blank">Try the model</a>
-                            /
-                            <a href="https://github.com/D5mit/IMDB-Review-classification" target="_blank">Source Code</a>
+                            <img src="../../Downloads/d5mit/images/Bots-01.svg" alt=":) or :(" width="100%">
+
                         </p>
                     </td>
                     </tr>
