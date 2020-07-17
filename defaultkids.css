@@ -65,7 +65,7 @@ h2 {
   background-image: url("images/kidsheader3.png");
   background-color: #cccccc;
   height: 300px;
-  /*background-position: center;*/
+  background-position: center !important;
   top: 0px;
   background-repeat: no-repeat;
   background-size: cover;
