@@ -5,7 +5,8 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   /*padding-bottom: 2.5rem;*/
-  background-color: black;
+  /*background-color: black;*/
+  background-color: black
 }
 p {
   margin: 5px;
