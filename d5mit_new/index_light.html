@@ -32,7 +32,7 @@
     body {
       /*background-image: url("header4.png");*/
       background-size: 1600px;
-      background-color: whitesmoke;
+      /*background-color: whitesmoke;*/
       background-repeat: no-repeat;
     }
 
@@ -43,32 +43,40 @@
   <body>
 
 <!--  <div class="jumbotron">-->
+    <nav class="navbar navbar-expand-lg navbar-brand fixed-top bg-dark" aria-label="Eighth navbar example" >
+    <div class="container">
+      <a class="navbar-brand" href="#">d5mit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<nav class="navbar navbar-expand-md p-3 mb-2 navbar-light bg-white text-dark">
-  <a class="navbar-brand" href="#">
-    <img src="https://i.stack.imgur.com/snRuy.jpg" />
-  </a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto text-center w-100 justify-content-between ml-lg-0 d-lg-flex align-items-center">
-      <div class="nav-item h-100"><a class="nav-link" href="#">RandomLink</a></div>
-      <div class="nav-item h-100"><a class="nav-link"href="#">Some Really Long Link as an Example of Vertical </a></div>
-      <div class="nav-item h-100"><a class="nav-link" href="#">RandomLink</a></div>
-      <div class="nav-item h-100"><a class="nav-link" href="#">RandomLink</a></div>
-      <div class="nav-item h-100"><a class="nav-link" href="#">RandomLink</a></div>
-    </ul>
-  </div>
-</nav>
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/D5mit">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://d5mit.co.za/kidsmain.html">Kids</a>
+          </li>
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Link</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Link</a>-->
+<!--          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 <!--&lt;!&ndash;  </div>&ndash;&gt;-->
 <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mt-0 mb-0 d-lg-flex">-->
 <!--  <a class="navbar-brand mt-0 mb-0" href="#">-->
-<!--&lt;!&ndash;    <img src="d5mit_logo_4.png" height="25" alt="" loading="lazy">d5mit&ndash;&gt;-->
+<!--    <img src="d5mit_logo_4.png" height="25" alt="" loading="lazy">d5mit-->
 <!--&lt;!&ndash;      <strong>d5mit</strong>&ndash;&gt;-->
 <!--  </a>-->
 
@@ -107,24 +115,19 @@
 
 <!--  </div>-->
 <!--</nav>-->
-   <!-- Main jumbotron for a primary marketing message or call to action -->
+
 
 <main role="main">
   <div class="container">
-
-
     <!-- Example row of columns -->
     <div class="row">
-
-    </div>
-    <div class="row">
       <div class="col-md-12 text-black">
-         <img src="header3.jpg" width="1115" height="300" alt="" loading="lazy">
+         <img src="d5mit.png" width="1115" height="450" alt="" loading="lazy">
       </div>
     </div>
     <div class="container h-100">
       <h1 class="display-5 text-black mt-5">The quest to become a data-driven entity: Identification of sociotechnical
-                                            enabling factors of AI adoption</h1>
+                                            enabling factors to support AI adoption</h1>
       <p class="text-black text-muted"></p>
       <br>
     </div>
@@ -139,56 +142,30 @@
         <h4>This is why Techdays are useful</h4>
         <img src="techday.jpeg" width="350" height="200" alt="" loading="lazy">
         <p class="mt-2">Getting new technologies adopted is often difficult. Can Techdays be useful to encourage and convince people to adopt? What are some of the aspects to consider when organising a Techday?</p>
-        <p><a class="btn btn-secondary" target="_blank" href="https://medium.com/@dsmit2/this-is-why-tech-days-are-useful-e36597de3730?source=friends_link&sk=892f51070bfa7ed7c9969e2cd79b370c" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" target="_blank" href="https://dsmit2.medium.com/this-is-why-tech-days-are-useful-e36597de3730" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-black ">
         <h4>Deep Learning and Tic-Tac-Toe</h4>
         <img src="TTT.gif" width="350" height="200" alt="" loading="lazy">
 <!--        <img src="TTT.gif" alt="" loading="lazy">-->
-
         <p class="mt-2">Using self-play and a simple neural network to teach an AI agent how to play Tic Tac Toe. The main reason for this implementation is to serve as an easy learning experience to anyone new to deep learning.
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+           <a target="_blank" href="http://ec2-3-16-159-180.us-east-2.compute.amazonaws.com/tictactoe">To play Tic Tac Toe against an AI Agent. </a>  The same AI agent was also trained to play a card game called crabble.
+           <a target="_blank" href="http://ec2-3-16-159-180.us-east-2.compute.amazonaws.com/tictactoecard">To play Scabble against an AI Agent. </a>
+        </p>
+        <p><a class="btn btn-secondary" target="_blank" href="https://dsmit2.medium.com/tic-tac-toe-deep-learning-and-problem-representations-47e7f0bfebeb" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-black ">
         <h4>Sentiment analysis</h4>
         <img src="Bots-01.jpg" width="350" height="200" alt="" loading="lazy">
         <p class="mt-2">A sequential neural network was trained on 25000 IMDB movie reviews. Based on the review, the model predicts the movie rating. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" target="_blank" href="http://ec2-3-16-159-180.us-east-2.compute.amazonaws.com/" role="button">View details &raquo;</a></p>
       </div>
     </div>
     <div class="row">
-            <div class="col-md-4 text-black">dssss
-
-            </div>
+            <div class="col-md-4 text-black"></div>
     </div>
   </div> <!-- /container -->
 
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4 text-black">
-        <h4>This is why Techdays are useful</h4>
-        <img src="techday.jpeg" width="350" height="200" alt="" loading="lazy">
-        <p class="mt-2">Getting new technologies adopted is often difficult. Can Techdays be useful to encourage and convince people to adopt? What are some of the aspects to consider when organising a Techday?</p>
-        <p><a class="btn btn-secondary" target="_blank" href="https://medium.com/@dsmit2/this-is-why-tech-days-are-useful-e36597de3730?source=friends_link&sk=892f51070bfa7ed7c9969e2cd79b370c" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4 text-black ">
-        <h4>Deep Learning and Tic-Tac-Toe</h4>
-        <img src="TTT.gif" width="350" height="200" alt="" loading="lazy">
-<!--        <img src="TTT.gif" alt="" loading="lazy">-->
-
-        <p class="mt-2">Using self-play and a simple neural network to teach an AI agent how to play Tic Tac Toe. The main reason for this implementation is to serve as an easy learning experience to anyone new to deep learning.
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4 text-black ">
-        <h4>Sentiment analysis</h4>
-        <img src="Bots-01.jpg" width="350" height="200" alt="" loading="lazy">
-        <p class="mt-2">A sequential neural network was trained on 25000 IMDB movie reviews. Based on the review, the model predicts the movie rating. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-  </div> <!-- /container -->
 
 </main>
 
