@@ -1,0 +1,14 @@
+{
+  "name": "9928e6237c2731c5",
+  "main": "9928e6237c2731c5@255.js",
+  "version": "255.0.0",
+  "homepage": "https://observablehq.com/d/9928e6237c2731c5",
+  "author": {
+    "name": "Danie Smit's Workspace",
+    "url": "https://observablehq.com/@danie-smit-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
