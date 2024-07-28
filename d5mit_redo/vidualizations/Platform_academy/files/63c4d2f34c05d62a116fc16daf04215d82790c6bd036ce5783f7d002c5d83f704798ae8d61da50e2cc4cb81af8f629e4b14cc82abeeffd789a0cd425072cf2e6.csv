@@ -1,0 +1,29 @@
+source,target,type
+Collaboration,Attachment,influence
+Environment,Attachment,influence
+Mentors,Attachment,influence
+Impact,Mentors,influence
+Dynamics,Team,influence
+Team,Attachment,influence
+Supportive,Mentors,influence
+Social,Environment,influence
+Learning,Environment,influence
+Attachment,Involvement,influence
+Career,Involvement,influence
+Trust,Involvement,influence
+Role alignment,Involvement,influence
+Hands-on,Involvement,influence
+Relationships,Involvement,influence
+Hands-on,Commitment,influence
+Intrinsic motivation,Commitment,influence
+Team,Commitment,influence
+Non-technical skills,Commitment,influence
+Real-world,Commitment,influence
+Team,Belief,influence
+Team,Collaboration,influence
+Intrinsic motivation,Belief,influence
+Hands-on,Belief,influence
+Mentors,Belief,influence
+Guidance,Mentors,influence
+Individual,Belief,influence
+Open,Belief,influence
